@@ -32,7 +32,7 @@ nav{
     bottom:1px;
     left:200px;
     right: 2px;
-    border:1%;
+
     box-shadow: 3px 5px 5px 8px rgba(0,0,0,0.36);
 }
 
@@ -43,7 +43,7 @@ h2, h3{
 
 .main {
     padding: 2rem;
-    border:1%;
+
     border-color: aqua;
 }
 
