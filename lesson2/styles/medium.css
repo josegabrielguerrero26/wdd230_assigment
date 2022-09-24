@@ -2,10 +2,7 @@
     nav ul {
         display: flex;
     }
-
-    nav ul li {
-        flex-basis: 25%;
-    }
+    nav ul li {float: left; width:13%;}
     
     main figure{
         float:right;
@@ -23,3 +20,5 @@
 
 
 }/* end of media query+/
+
+
