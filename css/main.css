@@ -6,15 +6,24 @@ body{
     font-size: 16px;
 }
 .header{
+    display: grid;
+    height: 80px;
+    grid-template-columns: 100px, auto;
+    grid-template-rows: 5px;
+   
     background-color: #2C2C54;
-    justify-content: center;
-    display: flex;
-    padding:5.5rem;
+    padding: 1.5rem;
     border-radius: 2rem;
+}
+.profile{
+    max-width:80px;
 
+    box-shadow: 3px 5px 5px 8px rgba(0,0,0,0.36);
 }
 h1{color:White;
-    font-size: 40px;
+    grid-column: 2;
+
+    font-size: 30px;
 
 }
 
@@ -25,16 +34,7 @@ nav{
     line-height: 1.6;
    
 }
-.profile{
-    position:absolute;
-    max-width: 14%;
-    top:32px;
-    bottom:1px;
-    left:200px;
-    right: 2px;
 
-    box-shadow: 3px 5px 5px 8px rgba(0,0,0,0.36);
-}
 
 h2, h3{
     font-size: 30px;
