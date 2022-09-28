@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1028px){
+
+    nav ul li {float: center; width:100%;
+    text-align: right;}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    body{        
+        font-size: 16px;
+}
+.one{
+    
+    grid-column: 1/2;
+}
+.two{
+    grid-column: 2/3;
+}
+.three{
+    grid-column: 3/3;
+}
+.one,.two,.three{
+    padding: 5%;}
+
+
+}/* end of media query+/
