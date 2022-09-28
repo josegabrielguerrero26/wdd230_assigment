@@ -9,20 +9,21 @@ body{
     display: grid;
     height: 80px;
     grid-template-columns: 100px, auto;
+    justify-items: center;
     grid-template-rows: 5px;
-   
+   ;
+
     background-color: #2C2C54;
     padding: 1.5rem;
     border-radius: 2rem;
 }
 .profile{
     max-width:80px;
-
+    
     box-shadow: 3px 5px 5px 8px rgba(0,0,0,0.36);
 }
 h1{color:White;
     grid-column: 2;
-
     font-size: 30px;
 
 }
