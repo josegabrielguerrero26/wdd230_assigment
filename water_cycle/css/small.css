@@ -15,17 +15,20 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #2C2C54;
     display:grid ;
     grid-template-columns: 75px auto;
 }
 header div{margin-left: 10px;}
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header h1 {margin: 0;
+            color: white;}
+header h2 {margin: 0; font-weight: normal;
+            color: white;}
+
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: black;
 }
 nav ul {
     list-style-type: none;
@@ -60,7 +63,8 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #2C2C54;
+    color: #eee;
     padding: .5rem 2%;
     text-align: center;
 }
