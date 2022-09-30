@@ -51,24 +51,9 @@
     }
     
     nav a:hover{background-color: #444;}
-    
-    /* main rules here */
-    
-    main{
-        padding:1rem 2% ;
-        display: block;
-        background-color: #eee;
-    }
-    main h1{color:#2C2C54;}
-    
-    main figure img{width: 100%;}
-    main figure{
-        width:100%;
-        margin:0;
-    }
-    
-    main figcaption{text-align:center;font-size:.8rem;}
-    
+
+ /* footer rules here */
+
     footer{
         text-align: center;
         padding: 1rem 2%;
@@ -77,3 +62,67 @@
     }
     
     
+    /* main rules here */
+    
+    main{
+        padding:1rem 2% ;
+        display: block;
+        background-color: #eee;
+    }
+.name,.logo,.porpose{
+    border: rgb(163, 136, 162);
+    border-style: dashed ;
+    margin: 10px;
+    background-color: white;
+}
+ h2{
+    text-align: center;
+    text-decoration-line: underline;
+    color:#4f4f55;
+    text-shadow: 1px 1px 5px #2C2C54
+ }
+h3{
+    font-size:13px;
+    margin: 5px;
+   ;}
+    
+.chamber-logo{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+p{
+    margin: 2px;
+}
+
+/*targeting page*/
+.photos{
+    display: flex;
+    justify-content: center;
+    padding: 5px;}
+
+/*color-scheme*/
+.container-table {
+    margin-top: 1rem;
+}
+.primary-background {
+    background-color: #2C2C54;
+    text-align: center;
+}
+.secondary-background {
+    background-color: #eee;
+    text-align: center;
+}
+
+.accent1-background {
+    background-color: rgb(61, 60, 60);
+    text-align: center;
+}
+
+.accent2-background {
+    background-color: #2C2C54;
+    text-align: center;
+}
+td{
+    text-align: center;
+}

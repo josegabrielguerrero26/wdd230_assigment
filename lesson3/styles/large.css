@@ -35,4 +35,14 @@ main{
     padding: 5%;}
 
 
-}/* end of media query+/
+    /*color-scheme*/
+.container-table{
+ grid-column: 2/3;
+}
+/*color-scheme*/
+.typo{
+    grid-column: 2/3;
+}
+
+
+}/* end of media query*/
