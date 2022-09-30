@@ -1,93 +1,79 @@
 
 *{-moz-box-sizing: border-box;
--webkit-box-sizing: border-box; box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: border-box;
+    
+    }
+    
+    /* body Rules here*/
+    body{
+        font-family: Verdana;
+        font-size: 16px;
+      
+    }
+    
+    /* Header rules Here*/
+    header{
+        display: flex;
+        background-color: #2C2C54;
+        align-items: center;
+        padding: 1rem 1%;
+        color: #eee;
+    }
+    header h1{
+        margin:10px;
+        text-align: left;
+        font-size: 1.8rem;
+    }
 
-}
-
-
-
-/* body Rules here*/
-body{
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
-/* Header rules Here*/
-header{
-    background-color: #2C2C54;
-    padding: 1rem 1%;
-    color: #eee;
-}
-header h1{
-   text-align: center;
-   padding: .2rem 1%;
-    margin:0;
-}
-
-header h2{
-    margin:0;
-}
-
-/* navifation rules here*/
-nav {background-color: #111;}
-
-
-nav ul{background-color: #111;}
-nav ul {margin:0;padding:0;}
-nav li{list-style-type: none;}
-nav li.active{background-color: #333;}
-
-nav a{
-    display:block;
-    padding: .8rem.0;
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
-}
-
-nav a:hover{background-color: #444;}
-
-/* main rules here */
-
-main{
-    padding:1rem 2% ;
-    display: block;
-}
-.one, .two, .three{
-    border: 2px solid #111; 
-    border-radius: 10px;
-    margin: 1.5rem 0;  
-    background-color:rgb(202, 202, 201);
-}
-h2{
-    text-align: center;
-    background-color: #111;
-    color:white;
-    margin:0;
-}
-h3{
-    text-align: center;
-}
-
-main figure img{width: 100%;}
-main figure{
-    width:100%;
-    margin:0;
-}
-
-main figcaption{text-align:center;font-size:.8rem;}
-
-.inside-tx{
-    text-align: left;
-    font-size: 20px;
-
-} 
-a:hover{color:white}
-
-footer{
-    text-align: center;
-    padding: 1rem 2%;
-    background-color: #2C2C54;
-    color: #eee;
-}
-
+    /* Logo image*/
+    img{
+        margin: 5px;
+        max-width: 20%;  
+        height: 20%;
+    }
+    /* navifation rules here*/
+    
+    nav {
+        background-color: #111;
+    }
+    
+    nav ul{background-color: #111;}
+    nav ul {margin:0;padding:0;}
+    nav li{list-style-type: none;}
+    nav li.active{background-color: #333;}
+    
+    nav a{
+        display:block;
+        padding: .8rem.0;
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    nav a:hover{background-color: #444;}
+    
+    /* main rules here */
+    
+    main{
+        padding:1rem 2% ;
+        display: block;
+        background-color: #eee;
+    }
+    main h1{color:#2C2C54;}
+    
+    main figure img{width: 100%;}
+    main figure{
+        width:100%;
+        margin:0;
+    }
+    
+    main figcaption{text-align:center;font-size:.8rem;}
+    
+    footer{
+        text-align: center;
+        padding: 1rem 2%;
+        background-color: #2C2C54;
+        color: #eee;
+    }
+    
+    

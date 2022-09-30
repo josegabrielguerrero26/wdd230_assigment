@@ -1,7 +1,19 @@
-@media only screen and (min-width: 1028px){
+@media only screen and (min-width: 1000px){
 
-    nav ul li {float: center; width:100%;
-    text-align: right;}
+    header h1{
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    img{
+        margin: 5px;
+        max-width: 5%;  
+        height: 5%;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li { width:100%;}
+ 
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
