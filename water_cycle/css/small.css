@@ -28,7 +28,7 @@ header h2 {margin: 0; font-weight: normal;
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: black;
+    background-color: rgb(100, 100, 100);
 }
 nav ul {
     list-style-type: none;
