@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- BODY --------------*/
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Verdana, sans-serif;
 }
 
@@ -17,14 +17,23 @@ header {
     padding: .5rem 2%;
     background-color: #2C2C54;
     display:grid ;
-    grid-template-columns: 75px auto;
+    place-items: center normal;
+    grid-template-columns: 100px auto;
 }
+img{grid-column: 1;
+    position: relative;
+    width: 130px;
+}
+
 .header {margin-left: 30px;}
 header h1 {
     margin: 5px;
-            color: white;}
+    color: white;
+    font-size: 25px;
+    }
 header h2 {margin: 0; font-weight: normal;
-            color: white;}
+            color: white;
+            font-size: 15px;}
 .time{
     grid-column: 1 /3;
     margin: 0.1rem;
@@ -34,21 +43,28 @@ header h2 {margin: 0; font-weight: normal;
     color: black;
     text-align: center;
 }
-img{grid-column: 1;
-    top: 30%;
-    position: relative;
-}
 
 /*----------- NAVIGATION --------------*/
+
+h1{ margin: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+h2{ margin: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
 nav {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(165, 159, 159);
+    padding: 8px;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: none;
 }
-
+nav ul.open{display: block;}
 nav ul li a {
     display: block;
     color: #eee;
@@ -67,6 +83,15 @@ nav ul li.active a {
     background-color: #000;
     color: #fff;
 }
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
