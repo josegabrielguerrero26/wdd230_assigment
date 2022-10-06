@@ -18,24 +18,43 @@ header {
     background-color: #2C2C54;
     display:grid ;
     place-items: center normal;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 100px auto 100px;
+
 }
 img{grid-column: 1;
     position: relative;
     width: 130px;
 }
 
-.header {margin-left: 30px;}
+.header {margin-left: 30px;
+    grid-column: 2/3;
+    grid-row: 1;}
+
 header h1 {
     margin: 5px;
     color: white;
-    font-size: 25px;
-    }
-header h2 {margin: 0; font-weight: normal;
+    font-size: 16px;}
+
+#one {
+    top:10px;
+    right:80px;
+    width: 25px;
+    height: 25px;
+    position:absolute;
+}
+#two{
+    top:10px;
+    right:50px;
+    width: 25px;
+    height: 25px;
+    position:absolute;
+}
+    
+header h2 {margin: 5px; font-weight: normal;
             color: white;
             font-size: 15px;}
 .time{
-    grid-column: 1 /3;
+    grid-column: 1 /4;
     margin: 0.1rem;
 	border: 3px solid rgb(100, 85, 85);
 	padding: 0.5rem;
@@ -55,8 +74,11 @@ h2{ margin: 5px;
     font-size: 15px;
 }
 nav {
-    background-color: rgb(165, 159, 159);
-    padding: 8px;
+    position:absolute;
+    top:15px;
+    right:15px;
+
+
 }
 nav ul {
     list-style-type: none;
@@ -64,7 +86,13 @@ nav ul {
     margin: 0;
     display: none;
 }
-nav ul.open{display: block;}
+nav ul.open{
+    display:block;
+    width: 20rem;
+    float: left;
+    margin-right: 0px;
+    background-color: rgb(11, 11, 11)}
+    
 nav ul li a {
     display: block;
     color: #eee;
@@ -72,6 +100,7 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+    
 }
 
 
@@ -80,7 +109,7 @@ nav ul li a:hover {
     color: #333;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: #aaa;
     color: #fff;
 }
 
@@ -94,11 +123,40 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    padding: 2%;
     min-height: 10rem;
 }
 
+.hero,.event,.weather,.new_release, .container{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(186, 187, 184);
+    padding: 0px;
+    margin-block: 5px;
+    border-style: solid;
+    border-color: #aaa;
+}
+.container{
+    height: 350px;
+    place-items: left ;
+    padding: 15px;
+}
+.spotligh1,.spotligh2{
+   
+    height: 150px;
+    margin-block: 5px;
+    border-style: solid ;
+    border-width: thin;
+    border-color: rgb(10, 10, 10);
+}
 
+
+.join{
+    display: none;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #2C2C54;
