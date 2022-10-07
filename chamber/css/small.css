@@ -10,9 +10,7 @@ body {
     font-size: 14px;
     font-family: Verdana, sans-serif;
 }
-p{
-    font-size: ;
-}
+
 
 /*----------- HEADER --------------*/
 header {
@@ -144,7 +142,6 @@ main {
 }
 .container{
     height: 350px;
-    place-items: left ;
     padding: 15px;
 }
 .spotligh1,.spotligh2{
