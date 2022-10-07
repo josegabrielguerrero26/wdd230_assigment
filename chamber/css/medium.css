@@ -11,19 +11,70 @@
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {
-        display: flex;
-        margin-left: 2%;
-    }
 
+nav ul.open{
+    width: 40rem;
+}
 
-    nav ul li a{padding: .5rem 1rem;}
-
+#one {
+    right:120px;}
+#two {
+        right:150px;
+}
 
 /*----------- MAIN --------------*/
+.container{
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    
+}
+.spotligh1,.spotligh2{
+    margin: 1px;
+}
+.join{
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(186, 187, 184);
+    padding: 0px;
+    margin-block: 5px;
+    border-style: solid;
+    border-color: #aaa;
+    grid-row: 6
+}
 
-
+.event{
+    grid-row: 7;
+    width: 60%;
+    grid-column: 1;
+}
+.weather{
+    margin-left: auto;
+    grid-row: 7;
+    width: 38%;
+    grid-column: 1
+    ;
+}
 
 /*----------- FOOTER --------------*/
-    
+
+footer{
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 1fr 1fr; 
+
+}
+footer h1{
+    grid-column: 2;
+ 
+}
+
+
+.end{
+    grid-column: 1 /4;
+    grid-row: 2;
+}
+
 } /* end of media query */
