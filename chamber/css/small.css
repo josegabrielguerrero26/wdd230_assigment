@@ -72,6 +72,7 @@ h1{ margin: 5px;
 h2{ margin: 5px;
     color: rgb(0, 0, 0);
     font-size: 15px;
+    
 }
 nav {
     position:absolute;
@@ -163,4 +164,12 @@ footer {
     color: #eee;
     padding: .5rem 2%;
     text-align: center;
+}
+footer h1,h2 {
+    margin: 5px;
+    color: white;
+    font-size: 16px;}
+footer h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
 }
