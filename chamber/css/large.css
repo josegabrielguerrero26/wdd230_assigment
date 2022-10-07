@@ -88,6 +88,21 @@ main {
 /*----------- FOOTER --------------*/
     
 
+footer h1{
+    grid-column: 2;
+ 
+}
+.footer1{
+    text-align: left;
+}
+
+.end{
+    display:flex;
+    grid-column: 1 /4;
+    grid-row: 2;
+    justify-content: center;
+   
+}
 
 
 
