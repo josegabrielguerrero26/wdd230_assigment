@@ -143,7 +143,7 @@ main {
     height: 350px;
     padding: 15px;
 }
-.spotligh1,.spotligh2{
+.spotligh1,.spotligh2, .spotligh3{
    
     height: 150px;
     margin-block: 5px;
@@ -151,7 +151,9 @@ main {
     border-width: thin;
     border-color: rgb(10, 10, 10);
 }
-
+.spotligh3{
+    display: none;
+}
 
 .join{
     display: none;

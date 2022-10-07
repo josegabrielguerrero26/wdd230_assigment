@@ -1,27 +1,96 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
-        max-width: 64rem;
-        margin:auto;
-    }
-
 /*----------- BODY --------------*/
 
 
 
 /*----------- HEADER --------------*/
 
-
-
 /*----------- NAVIGATION --------------*/
-
-
+nav button{
+      display: none;
+    }
+    
+header nav { 
+      margin-right: 18em;
+      top: 1.5em;
+    }
+header nav ul, header nav ul.hide {
+        display: flex;
+    }
+header nav ul li {  
+        margin-left: 50px;
+    }
+#one {
+        right:2em;}
+#two {
+        right:4em;;
+    }
 
 /*----------- MAIN --------------*/
+#title{
+    display: none;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 2%;
+    min-height: 10rem;
+}
+.hero,.event,.weather,.new_release, .container,.join{
+    margin: 0px;
+    height: 200px;
+    width: 95%;
+    height: 95%;
 
+}
+.event{
+    grid-row: 1;
+    height: 95%;
+    grid-column: 1;
+}
+.weather{
+    grid-row: 2;
 
+    grid-column: 1;
+}
+.join{
+    grid-row: 3;
+ 
+    grid-column: 1; 
+}
+.hero{
+    grid-row: 1 /3;
+  
+    grid-column: 2/4;   
+}
+.new_release{
+    grid-row: 3;
+    grid-column: 2/4;   
+}
+.container{
+    grid-row: 1/4;
+    grid-column: 4; 
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 98%;
+
+}
+.spotligh3{
+    display: inline;
+}
+.spotligh3, .spotligh2, .spotligh1{
+    height: 200px;
+}
 
 /*----------- FOOTER --------------*/
     
+
+
+
+
+
+
 } /* end of media query */

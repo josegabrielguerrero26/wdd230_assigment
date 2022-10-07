@@ -71,7 +71,9 @@ footer h1{
     grid-column: 2;
  
 }
-
+.footer1{
+    text-align: left;
+}
 
 .end{
     grid-column: 1 /4;
