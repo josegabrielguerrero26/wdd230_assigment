@@ -130,15 +130,24 @@ main {
     min-height: 10rem;
 }
 
-.hero,.event,.weather,.new_release, .container{
+.hero,.event,.weather,.new_release, .container {
+    position:relative;
     height: 200px;
-    width: 100%;
     background-color: rgb(186, 187, 184);
     padding: 0px;
     margin-block: 5px;
     border-style: solid;
     border-color: #aaa;
+    padding-bottom: 50%;
 }
+.mainphoto img{
+    position:relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+
+  }
 .container{
     height: 350px;
     padding: 15px;
@@ -157,6 +166,7 @@ main {
 
 .join{
     display: none;
+
 }
 /*----------- FOOTER --------------*/
 footer {
