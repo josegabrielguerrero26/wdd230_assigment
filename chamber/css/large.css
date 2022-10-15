@@ -82,15 +82,24 @@ max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr;
     height: 98%;
+   
 
 }
-.spotligh3{
-    display: inline;
+.spo{
+display:block;
+margin-right: 20px;
+box-shadow: 5px 10px;
 }
-.spotligh3, .spotligh2, .spotligh1{
+.truck,.codep, .spo{
     height: 200px;
+   margin: 10px;
 }
 
+.spo img{
+
+    width: 50%;
+    height: 22%;
+    }
 /*----------- FOOTER --------------*/
     
 

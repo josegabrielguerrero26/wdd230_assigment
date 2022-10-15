@@ -186,7 +186,7 @@ div.hide{display: none;}
     height: 350px;
     padding: 15px;
 }
-.truck,.codep, .spotligh3{
+.truck,.codep, .spo{
    
     height: 150px;
     margin-block: 5px;
@@ -194,7 +194,7 @@ div.hide{display: none;}
     border-width: thin;
     border-color: rgb(10, 10, 10);
 }
-.spotligh3{
+.spo{
     display: none;
 }
 
@@ -247,7 +247,7 @@ div.hide{display: none;}
     width: 20%;
     height: 22%;
 }
-.truck p, .codep p{
+.truck p, .codep p, .spo p{
     border-top: 2px solid rgb(240, 240, 240);
     margin: 10px;
 }
