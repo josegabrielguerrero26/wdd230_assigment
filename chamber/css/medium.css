@@ -29,35 +29,51 @@ nav ul.open{
     grid-template-columns: 1fr 1fr;
     height: 200px;
     
+   
+    
 }
-.spotligh1,.spotligh2{
-    margin: 1px;
+.truck, .codep{
+    margin-right: 20px;
+     box-shadow: 5px 10px;
 }
 .join{
     display: block;
-    height: 200px;
+    height: 150px;
     width: 100%;
-    background-color: rgb(186, 187, 184);
+    background-color: #787883;;
     padding: 0px;
     margin-block: 5px;
     border-style: solid;
     border-color: #aaa;
-    grid-row: 6
+    grid-row: 6;
 }
 
 .event{
     grid-row: 7;
-    width: 60%;
+    width: 58%;
     grid-column: 1;
 }
 .weather{
-    margin-left: auto;
+  margin-left: 63%;
     grid-row: 7;
-    width: 38%;
-    grid-column: 1
-    ;
+    width: 30%;
+    grid-column: 1;
 }
+.join p{
+    font-size: 16px;
+    color: #fff;
+   text-align: center;
+}
+div#joi {
 
+    width:100%;
+    text-align: center;
+    background-color: rgb(38, 153, 219);  
+    margin-block: 1px;
+    border-style: solid;
+    border-color: rgb(238, 229, 229);
+    }
+ 
 /*----------- FOOTER --------------*/
 
 footer{

@@ -46,6 +46,12 @@ main {
     height: 95%;
 
 }
+.hero img{
+max-width: 1200px;
+  }
+.hero h2{
+    text-align: center;
+    font-size: 30px;}
 .event{
     grid-row: 1;
     height: 95%;
@@ -53,7 +59,7 @@ main {
 }
 .weather{
     grid-row: 2;
-
+    margin-left: -18%;
     grid-column: 1;
 }
 .join{
