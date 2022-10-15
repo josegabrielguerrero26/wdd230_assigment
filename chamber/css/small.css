@@ -231,7 +231,7 @@ div.hide{display: none;}
   .weatherup{
     grid-column: 2;
     grid-row: 2;
-    align-self: left;
+   
   }
   .weatherdown{
     border-top: 2px solid rgb(240, 240, 240);
