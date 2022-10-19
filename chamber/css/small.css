@@ -130,6 +130,19 @@ main {
     padding: 2%;
     min-height: 10rem;
 }
+
+main figure.myphoto{
+    width: 100%;
+    margin: 0;
+    float: right;
+}
+main figure.myphoto img{
+    width: 100%;
+}
+main figure.myphoto figcaption{
+    text-align: center;
+    font-size: 0.75rem;
+}
 div#joinus {
 
     position: absolute;
