@@ -139,7 +139,7 @@ main picture.myphoto{
 main picture.myphoto img{
     width: 100%;
 }
-main picture.myphoto figcaption{
+main picture.myphoto p{
     text-align: center;
     font-size: 0.75rem;
 }
