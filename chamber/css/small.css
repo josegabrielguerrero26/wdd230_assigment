@@ -233,12 +233,17 @@ div.hide{display: none;}
     text-align: center;
 
 }
-.weather img{
-    position:absolute;
-    height: 50%;
-    width: auto;
-    top: 18px;
-    left: 55px;
+.sunpic{
+    align-items: center;
+}
+
+picture.myphoto{
+    width: 100%;
+    margin: 0;
+    float: right;
+}
+picture.sunpic img{
+    width: 50%;
 
   }
   .weatherup{
