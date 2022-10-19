@@ -196,12 +196,12 @@ div.hide{display: none;}
 }  
 
 .container{
-    height: 350px;
+    height: 400px;
     padding: 15px;
 }
 .truck,.codep, .spo{
    
-    height: 150px;
+    height: 180px;
     margin-block: 5px;
     border-style: solid ;
     border-width: thin;
@@ -257,8 +257,9 @@ div.hide{display: none;}
     width: 100%;
   }
 .truck img, .codep img{
-    width: 20%;
-    height: 22%;
+    width: 23%;
+    height:auto;
+    margin:0%
 }
 .truck p, .codep p, .spo p{
     border-top: 2px solid rgb(240, 240, 240);
