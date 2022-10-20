@@ -243,8 +243,7 @@ picture.myphoto{
     float: right;
 }
 picture.sunpic img{
-    width: 50%;
-
+    width: 40%;
   }
   .weatherup{
     grid-column: 2;
