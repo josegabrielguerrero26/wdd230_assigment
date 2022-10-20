@@ -233,6 +233,9 @@ div.hide{display: none;}
     text-align: center;
 
 }
+#chill, #temp{
+    font-size: 10px;
+}
 .sunpic{
     align-items: center;
 }
