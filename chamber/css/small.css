@@ -139,7 +139,7 @@ main picture.myphoto{
 main picture.myphoto img{
     width: 100%;
 }
-main picture.myphoto p{
+#sizing{
     text-align: center;
     font-size: 0.75rem;
 }
