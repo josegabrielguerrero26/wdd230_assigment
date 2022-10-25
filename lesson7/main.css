@@ -24,7 +24,7 @@ picture.img{
     width: 100%;
     height: 100%;
     filter: blur(0em);
-  transition: filter 0.5s;
+    transition: filter 0.5s;
 }
 picture.img[data-src] {
     filter: blur(0.2em);
