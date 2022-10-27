@@ -60,7 +60,7 @@ nav ul.open{
     width: 30%;
     grid-column: 1;
 }
-.join p{
+p.join {
     font-size: 16px;
     color: #fff;
    text-align: center;
