@@ -32,7 +32,7 @@ header nav ul li {
 #title{
     display: none;
 }
-main {
+main.index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -50,10 +50,10 @@ grid-column: 1/5;
     height: 95%;
 
 }
-.hero img{
+img.hero {
 max-width: 1200px;
   }
-.hero h2{
+h2.hero{
     text-align: center;
     font-size: 30px;}
 .event{
@@ -99,10 +99,8 @@ box-shadow: 5px 10px;
    margin: 10px;
 }
 
-.spo img{
-
-    width: 20%;
-    
+img.spo{
+    width: 10%;
     }
 /*----------- FOOTER --------------*/
     
@@ -123,8 +121,15 @@ footer h1{
    
 }
 
+/* Discover large CSS*/
+main.discover{
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+}
 
-
-
-
+picture.disc{
+    width: 1000px;
+    height: 400px;
+   }
 } /* end of media query */
+

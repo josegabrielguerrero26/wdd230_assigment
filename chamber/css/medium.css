@@ -23,6 +23,7 @@ nav ul.open{
 }
 
 /*----------- MAIN --------------*/
+
 .container{
     grid-row: 4;
     display: grid;
@@ -95,5 +96,14 @@ footer h1{
     grid-column: 1 /4;
     grid-row: 2;
 }
+main.discover{
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+}
 
+picture.disc{
+    width: 600px;
+    height: 400px;
+   }
 } /* end of media query */
+
