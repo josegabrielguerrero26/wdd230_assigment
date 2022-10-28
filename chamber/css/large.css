@@ -50,9 +50,7 @@ grid-column: 1/5;
     height: 95%;
 
 }
-img.hero {
-max-width: 1200px;
-  }
+
 h2.hero{
     text-align: center;
     font-size: 30px;}
@@ -89,7 +87,7 @@ h2.hero{
    
 
 }
-.spo{
+div.spo{
 display:block;
 margin-right: 20px;
 box-shadow: 5px 10px;
@@ -99,9 +97,9 @@ box-shadow: 5px 10px;
    margin: 10px;
 }
 
-img.spo{
-    width: 10%;
-    }
+#tree{
+    max-width: 20%;
+}
 /*----------- FOOTER --------------*/
     
 
