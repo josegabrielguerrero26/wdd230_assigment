@@ -1,0 +1,51 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {-moz-box-sizing: border-box;/* -webkit-box-sizing: border-box; */box-sizing: border-box;}
+
+main{
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1000px;
+}
+select, option, input, label, button{
+    padding:0.2rem 1rem;
+    font-size: 1.2rem;
+    color: inherit;
+}
+.form-box{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-box label{
+    display: none;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 100%;
+}
+
+@media only screen and (min-width: 35rem) {
+
+.form-box label{
+    display: block;
+   flex-basis: 9rem;
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.form-box{
+    flex-direction: row ;
+}
+.form-box button{
+    margin-left: 9rem;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
