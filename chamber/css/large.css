@@ -135,7 +135,7 @@ picture.disc{
 
  /* Discver page img changes */
 
-    #pic3 {width: 90%; height: 100px ; object-fit: cover;margin: auto;
+    #pic3 {width: 90%; height: 300px ; object-fit: cover;margin: auto;
     }
 
     #pic6:hover, #img6:hover {border-radius: 150px 15px;}

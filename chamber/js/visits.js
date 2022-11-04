@@ -2,7 +2,9 @@
 
 var visited = localStorage.getItem("visits");
 var previousDate = localStorage.getItem("date");
+console.log(previousDate)
 var visitDate = Date.now();
+console.log(visitDate)
 var totalDays = Math.floor((visitDate - previousDate) / 86400000);
 
 if (visited == 1) {
