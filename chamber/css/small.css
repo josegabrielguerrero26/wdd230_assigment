@@ -344,10 +344,12 @@ div.visits{
 
 /* Join page CSS rules*/
 main.join{
-    display: flex;
+    display: block;
     margin: 1rem auto;
     width: 90%;
     max-width: 1000px;
+     margin: auto ;
+
 }
 select, option, input, label, button{
     padding:0.2rem 1rem;

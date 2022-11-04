@@ -124,4 +124,26 @@ picture.disc{
 #pic5:hover {filter: blur(4px);}
 
 #pic6:hover {filter: blur(1px) grayscale(50%);}
+
+
+/* form Page */
+.form-box label{
+    display: block;
+   flex-basis: 9rem;
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.form-box{
+    flex-direction: row ;
+}
+.form-box button{
+    margin-left: 9rem;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
 } 
