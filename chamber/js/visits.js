@@ -1,21 +1,27 @@
-// initialize display elements
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
+var visited = localStorage.getItem("visits");
+var previousDate = localStorage.getItem("date");
+var visitDate = Date.now();
+var totalDays = Math.floor((visitDate - previousDate) / 86400000);
+
+if (visited == 1) {
+  document.getElementById(
+    "visits"
+  ).textContent = `Welcome Back! You have been here ${visited} time!`;
+} else if (visited > 1) {
+  document.getElementById(
+    "visits"
+  ).textContent = `Welcome Back! You have been here ${visited} times!`;
+} else if (!visited) {
+  document.getElementById(
+    "visits"
+  ).textContent = `Welcome! This is your first time with us!`;
+  totalDays = 0;
 }
-
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-// show todays date.
-
-
+document.getElementById(
+  "visitTime"
+).textContent = `There have been ${totalDays} days since your last visit.`;
+visited++;
+localStorage.setItem("visits", visited);
+localStorage.setItem("date", visitDate);
