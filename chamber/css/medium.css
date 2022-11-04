@@ -127,17 +127,26 @@ picture.disc{
 
 
 /* form Page */
+
+main.join-sign {
+
+    width: 95%;
+    max-width: 1000px;
+     margin: auto ;
+}
+
 .form-box label{
     display: block;
    flex-basis: 9rem;
    flex-grow: 0;
    flex-shrink: 0;
+   background-color: white   ;
 }
 .form-box{
     flex-direction: row ;
 }
 .form-box button{
-    margin-left: 9rem;
+   margin: auto;
 }
 .form-box input,
 .form-box select,
@@ -146,4 +155,10 @@ picture.disc{
     flex-grow: 1;
     flex-shrink: 1;
 }
-} 
+
+
+
+
+}
+
+
