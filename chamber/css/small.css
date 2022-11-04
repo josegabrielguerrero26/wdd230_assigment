@@ -334,3 +334,29 @@ p.discover-p{
     margin: 1px 0 20px 0;
     text-align: justify;
 }
+
+/* Join page CSS rules*/
+main.join{
+    display: flex;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1000px;
+}
+select, option, input, label, button{
+    padding:0.2rem 1rem;
+    font-size: 1.2rem;
+    color: inherit;
+}
+.form-box{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-box label{
+    display: none;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 100%;
+}

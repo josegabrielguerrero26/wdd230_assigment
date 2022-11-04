@@ -131,6 +131,25 @@ picture.disc{
     border-radius: 40px;
    }
    img.disc{
-    border-radius: 39px;
+    border-radius: 39px;}
+
+ /* Discver page img changes */
+
+    #pic3 {width: 90%; height: 100 ; object-fit: cover;margin: auto;
+    }
+
+    #pic6:hover, #img6:hover {border-radius: 150px 15px;}
+    
+    #pic1:hover {filter: contrast(50%);}
+    
+    #pic5:hover {filter: saturate(60%);}
+    
+
+    #pic2:hover, #img2:hover {border-radius: 150px 150px;}
+    
+    #pic4:hover {filter: blur(5px) grayscale(10%);}
+
+
+
 } /* end of media query */
 

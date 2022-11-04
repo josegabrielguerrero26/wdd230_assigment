@@ -108,5 +108,20 @@ picture.disc{
 
    img.disc{
     border-radius: 15px;
-} /* end of media query */
+    }
+/* end of media query */
 
+/* Discover Page */
+
+#pic1:hover {box-shadow: 0 0 50px #333;}
+
+#pic2:hover, #img2:hover {border-radius: 15px 150px;}
+
+#pic3:hover {filter: contrast(50%);}
+
+#pic4:hover {filter: saturate(60%);}
+
+#pic5:hover {filter: blur(4px);}
+
+#pic6:hover {filter: blur(1px) grayscale(50%);}
+} 
