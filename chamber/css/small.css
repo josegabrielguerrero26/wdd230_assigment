@@ -334,6 +334,29 @@ p.discover-p{
     margin: 1px 0 20px 0;
     text-align: justify;
 }
+-- Time since last visit
+
+.label {
+    grid-column: 2;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+    grid-column: 2;
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.today {
+    grid-column: 2;
+	color: tomato;
+}
+p {
+    grid-column: 2;
+	margin: 1rem;
+}
 
 /* Join page CSS rules*/
 main.join{

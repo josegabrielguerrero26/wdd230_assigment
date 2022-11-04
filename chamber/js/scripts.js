@@ -34,6 +34,7 @@ console.log(today);
   }
   else if(dayNumber==2){
     element.classList.add("showme");
-  }else{
+  }
+  else{
     element.classList.add("hide");
   }
