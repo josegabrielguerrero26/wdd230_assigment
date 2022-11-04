@@ -336,11 +336,6 @@ p.discover-p{
 }
 -- Time since last visit
 
-.label {
-    grid-column: 2;
-	font-family: Arial, sans-serif;
-	font-weight: 700;
-}
 
 #visits {
     grid-column: 2;
