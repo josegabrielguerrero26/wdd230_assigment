@@ -13,22 +13,20 @@
     /*----------- NAVIGATION --------------*/
 
     /*----------- MAIN --------------*/
- 
-    main{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    }
+    main h1{
+        display: none;
+    }     
+    div {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,200px);
+            grid-gap: 5px;
+           
+            
+    }    
+    .cards section{
+        grid-auto-columns: auto;;
+    }    
 
-    .cards section {
-        margin: 0.25rem;
-        padding: 0.35rem;
-        background-color: #eee;
-        border: 1px solid #bbb;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-      
 
 }
