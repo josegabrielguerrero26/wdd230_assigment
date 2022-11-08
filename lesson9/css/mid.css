@@ -24,8 +24,15 @@
             
     }    
     .cards section{
-        grid-auto-columns: auto;;
+        grid-auto-columns: auto;
     }    
+
+
+/*----------- FOOTER --------------*/
+.end div{
+    align-items: center;
+}
+
 
 
 
