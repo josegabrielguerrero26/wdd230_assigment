@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let companies =
+    `[
+    {
+        "name": "Big corporaton",
+        "numberofemployees": 10000,
+        "ceo":"Gabriel G",
+        "ratings": 3.2
+
+    },
+    {
+        "name": "Small Sole Prop",
+        "numberofemployees": 100,
+        "ceo":null,
+        "ratings": 5
+    }
+]`
+console.log(JSON.parse(companies)[0].ceo)
+    </script>
+</body>
+</html>

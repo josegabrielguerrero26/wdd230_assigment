@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Big corporaton",
+        "numberofemployees": 10000,
+        "ceo":"Gabriel G",
+        "ratings": 3.2
+
+    },
+    {
+        "name": "Small Sole Prop",
+        "numberofemployees": 100,
+        "ceo":null,
+        "ratings": 5
+    }
+]
