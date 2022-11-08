@@ -16,7 +16,7 @@
     main h1{
         display: none;
     }     
-    div {
+    div.cards {
             display: grid;
             grid-template-columns: repeat(auto-fill,200px);
             grid-gap: 5px;
@@ -29,8 +29,9 @@
 
 
 /*----------- FOOTER --------------*/
-.end div{
-    align-items: center;
+
+footer{
+   text-align: center;
 }
 
 
