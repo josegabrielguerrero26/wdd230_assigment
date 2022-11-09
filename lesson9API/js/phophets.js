@@ -23,6 +23,7 @@ for (let i = 0; i < prophets.length; i++) {
     bDay.textContent = 'Birthdate: ' + prophets[i].birthdate;
     bPlace.textContent = 'Birthplace: ' + prophets[i].birthplace;
     children.textContent='Children: ' + prophets[i].numofchildren
+    image.setAttribute('loading', 'lazy');
 
 
     card.appendChild(h2);
