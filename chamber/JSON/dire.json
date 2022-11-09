@@ -4,7 +4,9 @@
         "numberofemployees": 10000,
         "ceo":"Gabriel G",
         "ratings": 5.0,
-        "mainbusiness": "Telecomunications"
+        "mainbusiness": "Telecomunications",
+        "website" :"www.webstie.org",
+        "filepath": "images/api1"
 
     },
     {
@@ -12,7 +14,9 @@
         "numberofemployees": 3500,
         "ceo":"Daniel Steffan",
         "ratings": 1.2,
-        "mainbusiness": "Oil"
+        "mainbusiness": "Oil",
+        "website" :"www.webstie.org",
+        "filepath": "images/api2"
 
     },
     {
@@ -20,7 +24,9 @@
         "numberofemployees": 50000,
         "ceo": null,
         "ratings": 4.2,
-        "mainbusiness": "Clothing"
+        "mainbusiness": "Clothing",
+        "website" :"www.webstie.org",
+        "filepath": "images/api3"
 
     },
     {
@@ -28,7 +34,9 @@
         "numberofemployees": 100,
         "ceo":"Leo Kim",
         "ratings": 4.2,
-        "mainbusiness": "Finance"
+        "mainbusiness": "Finance",
+        "website" :"www.webstie.org",
+        "filepath": "images/ap4"
 
     },
     {
@@ -36,7 +44,9 @@
         "numberofemployees": 5000,
         "ceo":"Omk Larned",
         "ratings": 5.2,
-        "mainbusiness": "Manufacturing"
+        "mainbusiness": "Manufacturing",
+        "website" :"www.webstie.org",
+        "filepath": "images/api5"
 
     },
     {
@@ -44,7 +54,9 @@
         "numberofemployees": 1000,
         "ceo":"Trump Biden",
         "ratings": 2.0,
-        "mainbusiness": "Telecomunications"
+        "mainbusiness": "Telecomunications",
+        "website" :"www.webstie.org",
+        "filepath": "images/api6"
 
     },
     {
@@ -52,7 +64,9 @@
         "numberofemployees": 3500,
         "ceo":"Mark Zukerm",
         "ratings": 3.2,
-        "mainbusiness": "Oil"
+        "mainbusiness": "Oil",
+        "website" :"www.webstie.org",
+        "filepath": "images/api7"
 
     },
     {
@@ -60,7 +74,9 @@
         "numberofemployees": 550,
         "ceo": null,
         "ratings": 4.8,
-        "mainbusiness": "Clothing"
+        "mainbusiness": "Clothing",
+        "website" :"www.webstie.org",
+        "filepath": "images/api8"
 
     },
     {
@@ -68,7 +84,9 @@
         "numberofemployees": 10000,
         "ceo":"John Batwson",
         "ratings": 3.7,
-        "mainbusiness": "Finance"
+        "mainbusiness": "Finance",
+        "website" :"www.webstie.org",
+        "filepath": "images/api9"
 
     },
     {
@@ -76,7 +94,9 @@
         "numberofemployees": 5000,
         "ceo":"Omk Larned",
         "ratings": 5.2,
-        "mainbusiness": "Manufacturing"
+        "mainbusiness": "Manufacturing",
+        "website" :"www.webstie.org",
+        "filepath": "images/api10"
 
     }
 ]
