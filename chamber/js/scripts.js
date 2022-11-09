@@ -1,3 +1,5 @@
+// hamburger botton
+
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("open");
   document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -20,21 +22,3 @@ let time = lastModified.toLocaleString('en-GB', {hour: "2-digit", minute: "2-dig
 let dateTime = `Last Updated: ${fullDate} ${time}`;
 document.querySelector("#lastModified").textContent= dateTime;
 
-//ad buttom 
-const today= new Date();
-console.log(today);
-
-  const dayNumber = today.getDay();
-  console.log(dayNumber);
-
-  const element=document.getElementById("joinus");
-
-  if (dayNumber==1){
-    element.classList.add("showme");
-  }
-  else if(dayNumber==2){
-    element.classList.add("showme");
-  }
-  else{
-    element.classList.add("hide");
-  }
