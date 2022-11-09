@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Laie Corp",
+        "numberofemployees": 10000,
+        "ceo":"Gabriel G",
+        "ratings": 5.0,
+        "mainbusiness": "Telecomunications"
+
+    },
+    {
+        "name": "ABC LLC",
+        "numberofemployees": 3500,
+        "ceo":"Daniel Steffan",
+        "ratings": 1.2,
+        "mainbusiness": "Oil"
+
+    },
+    {
+        "name": "H&M Corp",
+        "numberofemployees": 50000,
+        "ceo": null,
+        "ratings": 4.2,
+        "mainbusiness": "Clothing"
+
+    },
+    {
+        "name": "Advantage LLC",
+        "numberofemployees": 100,
+        "ceo":"Leo Kim",
+        "ratings": 4.2,
+        "mainbusiness": "Finance"
+
+    },
+    {
+        "name": "WD Corp",
+        "numberofemployees": 5000,
+        "ceo":"Omk Larned",
+        "ratings": 5.2,
+        "mainbusiness": "Manufacturing"
+
+    },
+    {
+        "name": "Funny LLC",
+        "numberofemployees": 1000,
+        "ceo":"Trump Biden",
+        "ratings": 2.0,
+        "mainbusiness": "Telecomunications"
+
+    },
+    {
+        "name": "American Corp",
+        "numberofemployees": 3500,
+        "ceo":"Mark Zukerm",
+        "ratings": 3.2,
+        "mainbusiness": "Oil"
+
+    },
+    {
+        "name": "M&M LL",
+        "numberofemployees": 550,
+        "ceo": null,
+        "ratings": 4.8,
+        "mainbusiness": "Clothing"
+
+    },
+    {
+        "name": "Pilot LLC",
+        "numberofemployees": 10000,
+        "ceo":"John Batwson",
+        "ratings": 3.7,
+        "mainbusiness": "Finance"
+
+    },
+    {
+        "name": "Happy Corp",
+        "numberofemployees": 5000,
+        "ceo":"Omk Larned",
+        "ratings": 5.2,
+        "mainbusiness": "Manufacturing"
+
+    }
+]
