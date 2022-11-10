@@ -376,25 +376,22 @@ select, option, input, label, button{
 }
 
 /*--Directory page --*/
-body {
-    font-size: 14px;
-    font-family: Verdana, sans-serif;
-}
 
 /*----------- MAIN --------------*/
 
 .dir main{
+   
     font-size: 14px;
     font-family: Verdana, sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1%;
+   
     background-color: #ddddde;
 
 }
 .cards section {
     text-align: center;
-    margin: 5px 0 0 2%;
+    margin: 5px 0 2% 2%;
     border: #2C2C54 5px solid;
     max-width: 100%;
     background-color: rgb(180, 189, 197) ;
