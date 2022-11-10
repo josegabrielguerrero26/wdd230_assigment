@@ -157,6 +157,34 @@ main.join-sign {
     flex-shrink: 1;
 }
 
+
+
+
+/*--Directory page --*/
+
+/*----------- MAIN --------------*/
+.dir h1{
+    display: none;
+}     
+div.cards {
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,210px);
+        grid-gap: 7px;
+       
+        
+}    
+.cards section{
+   align-items: center;
+}    
+.cards h2{
+    font-size: 16px;
 }
-
-
+.cards p{
+    font-size: 10px;
+   
+}
+.cards img{
+    margin-top: 10px;
+}
+}
