@@ -353,7 +353,7 @@ main.join-sign {
 }
 
 
-select, option, input, label, button{
+select, option, input, label{
     padding:0.2rem 1rem;
     font-size: 1.2rem;
     color: inherit;
@@ -374,6 +374,24 @@ select, option, input, label, button{
     flex-basis: 100%;
    
 }
+.form-box textarea{
+    border: solid 1px black;
+}
+
+#btnSend {
+    width: 50%;
+    align-self:center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
 
 /*--Directory page --*/
 
@@ -418,6 +436,7 @@ main h1{
     text-align: center;
     
 }
+
 
 
 
