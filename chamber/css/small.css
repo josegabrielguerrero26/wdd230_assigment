@@ -374,3 +374,51 @@ select, option, input, label, button{
     flex-basis: 100%;
    
 }
+
+/*--Directory page --*/
+body {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+
+/*----------- MAIN --------------*/
+
+.dir main{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1%;
+    background-color: #ddddde;
+
+}
+.cards section {
+    text-align: center;
+    margin: 5px 0 0 2%;
+    border: #2C2C54 5px solid;
+    max-width: 100%;
+    background-color: rgb(180, 189, 197) ;
+
+}
+.cards img {
+    max-width: 40%;
+    margin: 0 0 10PX 0;
+    box-shadow: 10px 10px 5px  #2C2C54;
+}
+
+.cards h2{
+    color: rgb(19, 19, 19);
+    text-align: center;
+    font-size: 20px;
+}
+.cards p{
+    text-align: left;
+    margin: 10px;
+}
+main h1{
+    text-align: center;
+    
+}
+
+
+
