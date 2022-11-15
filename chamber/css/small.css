@@ -156,11 +156,14 @@ div#joinus {
     margin-block: 1px;
     border-style: solid;
     border-color: rgb(238, 229, 229);
-    }
-    div#joinus p {
+}
+div#joinus p {
         color: #fff;
         font-size: 10px;
-    }
+}
+div#joinus1
+
+
 div.showme{display: block;}
 div.hide{display: none;}
 

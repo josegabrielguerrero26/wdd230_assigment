@@ -65,7 +65,7 @@ p.join {
     color: #fff;
    text-align: center;
 }
-div#joi {
+div#joinus1 {
 
     width:100%;
     text-align: center;
@@ -74,6 +74,10 @@ div#joi {
     border-style: solid;
     border-color: rgb(238, 229, 229);
     }
+div#joinus{
+    display: none;
+}
+
  
 /*----------- FOOTER --------------*/
 

@@ -20,13 +20,17 @@ console.log(today);
   console.log(dayNumber);
 
   const element=document.getElementById("joinus");
+  const element1=document.getElementById("joinus1");
 
   if (dayNumber==1){
     element.classList.add("showme");
+    element1.classList.add("showme");
   }
   else if(dayNumber==2){
     element.classList.add("showme");
+    element1.classList.add("showme");
   }
   else{
     element.classList.add("hide");
+    element1.classList.add("showme");
   }
