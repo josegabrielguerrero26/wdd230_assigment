@@ -15,10 +15,10 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #2C2C54;
+    color:white;
+
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -58,11 +58,24 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
-
+figure.weather{
+    margin: auto;
+    width: 50%;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+}
+img#weather_icon{
+    width: 75px;
+    
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius:25px;
+}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #2C2C54;
+    color:white;
     padding: .5rem 2%;
     text-align: center;
 }
