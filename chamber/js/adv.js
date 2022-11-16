@@ -32,5 +32,5 @@ console.log(today);
   }
   else{
     element.classList.add("hide");
-    element1.classList.add("showme");
+    element1.classList.add("hide");
   }
