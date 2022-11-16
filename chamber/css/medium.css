@@ -56,11 +56,12 @@ nav ul.open{
 }
 div.weather{
     text-align: center;
-    position: left;
+    position:absolute;
+    right: 1200px;
     grid-row: 7;
-    width: 60%;
     grid-column: 1;
-    position:relative;;
+    width: 40%;
+
 }
 p.join {
     font-size: 16px;
