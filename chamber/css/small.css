@@ -145,9 +145,9 @@ main picture.myphoto img{
 }
 div#joinus {
 
-    position: absolute;
-    width:96%;
-    top: 65%;
+    position: relative;
+    width:100%;
+    top: 6%;
   
 
     text-align: center;
@@ -161,17 +161,26 @@ div#joinus p {
         color: #fff;
         font-size: 10px;
 }
-div#joinus1
+
 
 
 div.showme{display: block;}
 div.hide{display: none;}
 
-.weather {
-    width: 70%;
-    left: 50px; 
+div.weather {
+    width: 100%;
+    left: 100px; 
+    text-align: center;
+    height: 150px;
+    background-color:#787883;
+    padding: 0px;
+    margin-block: 5px;
+    border-style: solid;
+    border-color: #aaa;
+    padding-bottom: 0%;
 }
-.hero,.event,.weather,.new_release, .container {
+
+.hero,.event, .new_release, .container {
     text-align: center;
     position: relative;
     height: 150px;
@@ -249,7 +258,7 @@ picture.myphoto{
     float: right;
 }
 picture.sunpic img{
-    width: 40%;
+    width: 20%;
   }
   .weatherup{
     grid-column: 2;

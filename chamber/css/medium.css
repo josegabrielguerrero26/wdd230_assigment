@@ -54,11 +54,13 @@ nav ul.open{
     width: 58%;
     grid-column: 1;
 }
-.weather{
-  margin-left: 63%;
+div.weather{
+    text-align: center;
+    position: left;
     grid-row: 7;
-    width: 30%;
+    width: 60%;
     grid-column: 1;
+    position:relative;;
 }
 p.join {
     font-size: 16px;
