@@ -41,28 +41,31 @@ main picture.myphoto{
 grid-row: 4;
 grid-column: 1/5;
 }
-.hero,.event,.weather,.new_release, .container,.join{
+div.hero, div.event, div.weather, div.new_release, div.container,div.join{
     margin: 0px;
     height: 200px;
-    width: 95%;
-    height: 95%;
+    width: 98%;
+    height: 98%;
 
+}
+div.hero{
+    grid-column: 2/4;
 }
 
 h2.hero{
     text-align: center;
     font-size: 30px;}
-.event{
+div.event{
     grid-row: 1;
-    height: 95%;
+    height: 98%;
     grid-column: 1;
 }
-.weather{
+div.weather{
     grid-row: 2;
-    margin-left: -18%;
+    height: 98%;
     grid-column: 1;
 }
-.join{
+div.join{
     grid-row: 3;
  
     grid-column: 1; 
@@ -72,16 +75,16 @@ h2.hero{
   
     grid-column: 2/4;   
 }
-.new_release{
+div.new_release{
     grid-row: 3;
     grid-column: 2/4;   
 }
-.container{
+div.container{
     grid-row: 1/4;
     grid-column: 4; 
     display: grid;
     grid-template-columns: 1fr;
-    height: 98%;
+    height: 100%;
    
 
 }

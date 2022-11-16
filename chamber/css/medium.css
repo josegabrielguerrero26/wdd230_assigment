@@ -24,6 +24,12 @@ nav ul.open{
 
 /*----------- MAIN --------------*/
 
+main.index{
+    display: grid;
+    grid-template-columns: 1fr 200fr;
+    grid-template-rows: 6fr;
+
+}
 .container{
     grid-row: 4;
     display: grid;
@@ -46,27 +52,33 @@ nav ul.open{
     margin-block: 5px;
     border-style: solid;
     border-color: #aaa;
-    grid-row: 6;
+    grid-row: 7;
+
 }
 
 .event{
-    grid-row: 7;
-    width: 58%;
-    grid-column: 1;
+    grid-row: 8;
+    width: 400px;
+    grid-column: 1/2;
+    height: 150px;
+
 }
 div.weather{
+    grid-row: 8;
     text-align: center;
-    position:absolute;
-    right: 1200px;
-    grid-row: 7;
-    grid-column: 1;
-    width: 40%;
+    grid-column: 2;
+    width: 100%;
 
 }
 p.join {
     font-size: 16px;
     color: #fff;
    text-align: center;
+}
+
+.new_release div{
+    grid-column:1;
+    grid-row: 5;
 }
 div#joinus1 {
 
@@ -79,6 +91,9 @@ div#joinus1 {
     }
 div#joinus{
     display: none;
+}
+div.hero, picture.myphoto, div.new_release, div.join, div.container{
+    grid-column: 1/3;
 }
 
  

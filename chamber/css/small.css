@@ -161,7 +161,9 @@ div#joinus p {
         color: #fff;
         font-size: 10px;
 }
-
+div.join h2{
+    text-align: center;
+}
 
 
 div.showme{display: block;}
