@@ -15,6 +15,7 @@ async function apiFetch() {
     document.getElementById('place').innerHTML=data.name;
     document.getElementById('currentTemp').innerHTML=data.main.temp;
     document.getElementById('windSpeed').innerHTML=data.wind.speed;
+    document.getElementById('description').innerHTML=data.weather[0].description;
     
     // Assigning icon-images from API in HTML
     const iconcode=data.weather[0].icon;
