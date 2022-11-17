@@ -101,6 +101,11 @@ box-shadow: 5px 10px;
 #tree{
     max-width: 20%;
 }
+
+img#weather_icon{
+    max-width: 100%;
+}
+ 
 /*----------- FOOTER --------------*/
     
 
