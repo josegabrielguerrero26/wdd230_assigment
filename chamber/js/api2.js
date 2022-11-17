@@ -9,31 +9,39 @@ function buildBusinessCards(info, type) {
   let data = info.businesses;
   data.forEach((business) => {
     let card = document.createElement("section");
-    let p = document.createElement("p");
-    let p2 = document.createElement("p");
-    let a = document.createElement("a");
+    let h2 = document.createElement("h2");
+    let h1 = document.createElement("p");
+    let ceo = document.createElement('p');
+    let mainb = document.createElement('p');
+    let ratings=document.createElement('p');
+    let email=document.createElement('p');
+    let image = document.createElement('img');
 
     card.setAttribute("id", "section");
-    p.innerHTML = `${business.filepath}`;
-    p2.innerHTML = `${business.name}`;
-    a.innerHTML = `${business.numberofemployees}`;
-    a.setAttribute("href", `${business.mainbusiness}`);
+    h2.textContent =  ' Name: ' + business.name;
+    h1.textContent='Headcount: ' + business.numberofemployees;
+    ceo.textContent = 'CEO Name: ' + business.ceo;
+    mainb.textContent = 'Industry: ' + business.mainbusiness;
+    ratings.textContent='Ratings: ' + business.ratings;
+    email.textContent='Email: '+ business.website
+    
 
     if (type == "grid") {
       let img = document.createElement("img");
-      img.setAttribute("src", `${business.imageurl}`);
-      img.setAttribute("alt", `${business.name}`);
+      img.setAttribute("src", `${business.filepath}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
+      card.appendChild(h2);
+      card.appendChild(h1);
+      card.appendChild(ceo);
+      card.appendChild(email);
     } else {
-      let h2 = document.createElement("h2");
-      h2.innerHTML = `${business.name}`;
       card.append(h2);
+      card.appendChild(mainb);
+      card.appendChild(ratings);
+      card.appendChild(ceo);
+      card.appendChild(email)
     }
-
-    card.appendChild(p);
-    card.appendChild(p2);
-    card.appendChild(a);
 
     display.classList.add(type);
     display.append(card);
@@ -51,7 +59,7 @@ async function getBusinesses(type) {
 }
 
 function deleteItems() {
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 10; i++) {
     document.getElementById("section").remove();
   }
 }

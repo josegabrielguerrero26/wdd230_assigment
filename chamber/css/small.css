@@ -411,6 +411,16 @@ select, option, input, label{
 
 /*----------- MAIN --------------*/
 
+.directorymenu {
+    margin-top: 15px;
+    text-align: center;
+    
+  }
+.directorymenu, section img, .directorymenu button {
+    padding: 15px;
+ 
+  }
+  
 .dir main{
    
     font-size: 14px;
