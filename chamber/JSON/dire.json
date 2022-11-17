@@ -1,4 +1,5 @@
-[
+{
+    "businesses": [
     {
         "name": "Laie Corp",
         "length": 1,
@@ -6,7 +7,7 @@
         "ceo":"Gabriel G",
         "ratings": 5.0,
         "mainbusiness": "Telecomunications",
-        "website" :"www.webstie.org",
+        "website" :"www.laie.corp",
         "filepath": "./images/api1.PNG"
 
     },
@@ -17,7 +18,7 @@
         "ceo":"Daniel Steffan",
         "ratings": 1.2,
         "mainbusiness": "Oil",
-        "website" :"www.webstie.org",
+        "website" :"www.abc.org",
         "filepath": "./images/api2.PNG"
 
     },
@@ -28,7 +29,7 @@
         "ceo": null,
         "ratings": 4.2,
         "mainbusiness": "Clothing",
-        "website" :"www.webstie.org",
+        "website" :"www.h&m.com.us",
         "filepath": "./images/api3.PNG"
 
     },
@@ -39,7 +40,7 @@
         "ceo":"Leo Kim",
         "ratings": 4.2,
         "mainbusiness": "Finance",
-        "website" :"www.webstie.org",
+        "website" :"www.advantage.com",
         "filepath": "./images/api4.PNG"
 
     },
@@ -50,7 +51,7 @@
         "ceo":"Omk Larned",
         "ratings": 5.2,
         "mainbusiness": "Manufacturing",
-        "website" :"www.webstie.org",
+        "website" :"www.WD.com",
         "filepath": "./images/api5.PNG"
 
     },
@@ -61,7 +62,7 @@
         "ceo":"Trump Biden",
         "ratings": 2.0,
         "mainbusiness": "Telecomunications",
-        "website" :"www.webstie.org",
+        "website" :"www.funny.com",
         "filepath": "./images/api6.PNG"
 
     },
@@ -72,7 +73,7 @@
         "ceo":"Mark Zukerm",
         "ratings": 3.2,
         "mainbusiness": "Oil",
-        "website" :"www.webstie.org",
+        "website" :"www.america.com.mx",
         "filepath": "./images/api7.PNG"
 
     },
@@ -83,7 +84,7 @@
         "ceo": null,
         "ratings": 4.8,
         "mainbusiness": "Clothing",
-        "website" :"www.webstie.org",
+        "website" :"www.M&C.org",
         "filepath": "./images/api8.PNG"
 
     },
@@ -94,7 +95,7 @@
         "ceo":"John Batwson",
         "ratings": 3.7,
         "mainbusiness": "Finance",
-        "website" :"www.webstie.org",
+        "website" :"www.pilot1120.com",
         "filepath": "./images/api9.PNG"
 
     },
@@ -105,8 +106,9 @@
         "ceo":"Omk Larned",
         "ratings": 5.2,
         "mainbusiness": "Manufacturing",
-        "website" :"www.webstie.org",
+        "website" :"www.happycorp.com",
         "filepath": "./images/api10.PNG"
 
     }
 ]
+}
