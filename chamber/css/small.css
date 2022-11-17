@@ -169,17 +169,16 @@ div.join h2{
 div.showme{display: block;}
 div.hide{display: none;}
 
-div.weather {
-    width: 100%;
-    left: 100px; 
+
+figure.weather{
+    width: 60px;
+    margin: 0px 0px 0px 50px;
     text-align: center;
-    height: 150px;
-    background-color:#787883;
-    padding: 0px;
-    margin-block: 5px;
-    border-style: solid;
-    border-color: #aaa;
-    padding-bottom: 0%;
+}
+img#weather_icon{
+max-width: 100%;
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius:25px;
 }
 
 .hero,.event, .new_release, .container {
@@ -235,11 +234,17 @@ div.weather {
     color: yellow;
     font-size: 10px;
 }
-.weather{
+div.weather{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:20px 1fr 1fr ;
     align-items: center;
+    height: 200px;
+    text-align: center;
+    background-color:#787883;
+    border-style: solid;
+    border-color: #aaa;
+    padding-bottom: 0%;
 
 }
 .weather h2{
@@ -263,8 +268,11 @@ picture.sunpic img{
     width: 20%;
   }
   .weatherup{
-    grid-column: 2;
-    grid-row: 2;
+    margin: auto;
+    width: 50%;
+    width: 120px;
+    height: 100px;
+    text-align: center;
    
   }
   .weatherdown{

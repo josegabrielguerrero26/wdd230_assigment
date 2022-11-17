@@ -78,31 +78,19 @@
         <h2 id="hinfo">more info.....</h2>
     </div>
     <div class="weather">
-        <h2 >Weather</h2>
-        <picture class="sunpic">
-        <img src="images/sun.png" alt="Town">
-        </picture> 
-        <div class="weatherup">
-        <h2>Temperature <span id="temp">32</span>&deg; </h2>
-        <h2 id="chill">Message</h2>
 
-        </div>
-        <div class="weatherdown">
-            <table >
-                <tr>
-                  <th>Wind Speed</th>
-                  <th>Wind Chill</th>
-                  
-                </tr>
-                <tr>
-                  <td>25h</td>
-                  <td><span id="speed">60</span>mph </td>
-                 
-                </tr>
-              
-              </table>
-              
-        </div>
+
+        <h2>Current Weather: <span id="place">city</span></h2>
+        <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
+        <p>Current Wind Speed is <span id="windSpeed">xx</span>mph</p>
+        <figure>
+        <img id="weather_icon" src="images/placeholder.png" alt="current weather">
+      
+        </figure>
+
+        <h2 id="chill">Message</h2>
+   
+
 
     </div>
     <div class="new_release">
@@ -164,5 +152,6 @@
     <script src="js/scripts.js"></script>
     <script src="js/windchill.js"></script>/script>
     <script src="js/adv.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
