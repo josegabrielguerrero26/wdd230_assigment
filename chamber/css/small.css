@@ -159,7 +159,7 @@ div#joinus {
 }
 div#joinus p {
         color: #fff;
-        font-size: 10px;
+        font-size: 14px;
 }
 div.join h2{
     text-align: center;
@@ -230,11 +230,11 @@ background-color: rgb(114, 216, 70);
     display: none;
 }
 .event h3{
-    font-size: 14px;
+    font-size: 16px;
 }
 #hinfo{
     color: yellow;
-    font-size: 10px;
+    font-size: 16px;
 }
 div.weather{
     display:grid;
@@ -442,7 +442,7 @@ select, option, input, label{
   
 .dir main{
    
-    font-size: 14px;
+    font-size: 16px;
     font-family: Verdana, sans-serif;
     display: grid;
     grid-template-columns: 1fr;
