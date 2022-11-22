@@ -208,6 +208,24 @@ div.cards {
     margin-top: 10px;
 }
 
+/*--Contact us page --*/
+
+/*----------- MAIN --------------*/
+
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    
+}
+iframe{
+    height: 100%;
+    width: 440px; 
+ 
+}
+#map{
+    margin-left: 50px;
+}
 
 
 } /* end of media query */

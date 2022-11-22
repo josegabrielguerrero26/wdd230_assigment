@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Join is the form to sign up people for the page">
+<meta name="description" content="this is the contact page for the website">
 <meta name="author" content="Gabriel Guerrero">
 
 <!-- This start file  -->
-<title>Join</title>
+<title>Contact</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -35,7 +35,7 @@
     <div class="header">
         <h1>Alaska Chamber of Commmerce</h1>
     </div>
-    <div class="time"> Join</div> 
+    <div class="time">Contact Us</div> 
 
         
 <!-- NAVIGATION HERE -->
@@ -53,7 +53,7 @@
     </nav>
 
 </header>
-    <main class="join-sign">
+    <main id="contact" class="join-sign">
         <form name="my-form" action="#" method="get">
             <div class="form-box">
                 <label for="first_name">First Name:</label>
@@ -62,12 +62,6 @@
             <div class="form-box">
                 <label for="last_name">Last Name:</label>
                 <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
-            </div>
-            <div class="form-box">
-                <label for="title">Title:</label>
-                <input type="text" name="title" id="title" 
-                pattern="[a-zA-Z-' ']{7}" 
-                placeholder="Title use only letters" required>
             </div>
             <div class="form-box">
                 <label for="email">Email:</label>
@@ -79,59 +73,27 @@
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="telf:XXX-XXX-XXXX" required>
             </div>
             <div class="form-box">
-                <label for="bname">Business Name:</label>
-                <input type="text" name="bname" id="bname" placeholder="Business Name" required>
-            </div>
-            <div class="form-box">
-                <label for="mlevel">Membership Level:</label>
-                <select name="mlevel" id="mlevel">
-                    <option value="np">NP Membership</option>
-                    <option value="bronze">Bronze Membership</option>
-                    <option value="silver">Silver Membership</option>
-                    <option value="gold">Gold Membership</option>
-                </select>
-            </div>
-            <div class="form-box">
-                <label for="bdescription">Business Description:</label>
+                <label for="bdescription">Brief Explanation:</label>
                 <textarea  name="bdescription" id="bdescription"
                 rows="15" cols="33">
                 </textarea>
             </div>
-            <div class="form-box">
-                <label>
-                    <input type="hidden" id="fdate" name="fdate">
-                </label>
-            </div>
+           
 
             <div class="form-box">
-                <button id="btnSend">Discounts</button>
+                <button id="btnSend">Send</button>
             </div>
         </form>
-        <div class="membership">
+        <div id="map">
+            <iframe title=" Map of City" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8385.15572462919!2d-134.4170880611164!3d58.30417717509654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5400df9b4f29e7fb%3A0x998894068829bae0!2sCourt%20House%20Hill!5e0!3m2!1sen!2smx!4v1669154799695!5m2!1sen!2smx"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <div id="tagc" class="membership">
                 <div>
-                  <h2>*GOLD</h2>
-                  <p>
-                    Benefits include access to our exclusive network and partners. It also open the opportunity to talk with our international business experts. The fee is $3,500 USD. 
-                  </p>
+                  <h2>* We will be back to you in less than 48 hours. Thanks for your time</h2>
                 </div>
-                  <div>
-                    <h2>*SILVER</h2>
-                    <p>
-                        Benefits are access to our international partners and business experts. Members can also set special visit to international offices. The Silver membership cost $2,400 USD.
-                    </p>
-                  </div>
-                  <div>
-                    <h2>*BRONZE</h2>
-                    <p>
-                        Benefits include access to our newsletter and online events. The member fee is $200.
-                    </p>
-                  </div>
-                  <div>
-                    <h2>*NP</h2>
-                    <p>
-                        Benefits include access to our newsletter. No cost associated.
-                    </p>
-                  </div>
+     
         </div>
     </main>
 
