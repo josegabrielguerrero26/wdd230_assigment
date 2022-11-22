@@ -421,6 +421,9 @@ select, option, input, label{
     font-size: 16px;
 
 }
+.membership h2{
+    color: #2C2C54;
+}
 
 
 /*--Directory page --*/
