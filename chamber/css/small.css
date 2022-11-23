@@ -362,6 +362,9 @@ footer h2{
     border-top: 5px solid  rgb(160, 158, 158);
     border-width: thin;   
 }
+a{
+    color: white;
+}
 
 /*---Discover page*/
 
@@ -454,7 +457,8 @@ select, option, input, label{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 
 }
 .membership h2{
