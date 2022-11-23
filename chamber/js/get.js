@@ -4,7 +4,7 @@ console.log("hello")
 const display = document.getElementById("spots");
 function buildBusinessCards(info) {
   let data = info.businesses.filter((p) => p.membership == "Gold" || p.membership == "Silver");
-  for (let i = 0; i <= 2; i++) {
+  for (let i = 0; i <= 1; i++) {
     a=data.splice(Math.floor(Math.random() * data.length), 1);
     console.log(a)
 };
@@ -21,7 +21,7 @@ function buildBusinessCards(info) {
     let a = document.createElement("a");
  
 
-    card.setAttribute("class", `section spot${num}`);
+    card.setAttribute("class", `section_spot${num}`);
     h2.innerHTML = `${business.name}`;
     h3.textContent = 'CEO: ' + business.ceo;
     a.innerHTML = `${business.website}`;

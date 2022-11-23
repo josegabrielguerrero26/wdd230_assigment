@@ -186,7 +186,7 @@ background-color: rgb(114, 216, 70);
 .hero,.event, .new_release, .container {
     text-align: center;
     position: relative;
-    height: 200px;
+    height: 220px;
     background-color:#787883;
     padding: 0px;
     margin-block: 5px;
@@ -211,19 +211,23 @@ background-color: rgb(114, 216, 70);
 }  
 
 .container{
-    height: 450px;
+    height: 500px;
     padding: 15px;
 }
-div.spot1, div.spot2{
-    height: 200px;
-    margin-block: 5px;
+div.section_spot1, div.section_spot2{
+    height: 230px;
+    margin-bottom: 1rem;
     border-style: solid ;
     border-width: thin;
     border-color: rgb(10, 10, 10);
 }
-picture.spot1, picture.spot2{
-    height: 30px;
+.section_spot1 img, .section_spot2 img{
+    height: 100px;
 }
+.section_spot1 picture{
+    height: 100%;
+}
+
 /*
 .truck,.codep, .spo{
    
@@ -233,7 +237,7 @@ picture.spot1, picture.spot2{
     border-width: thin;
     border-color: rgb(10, 10, 10);
 }*/
-.spot3{
+.section_spot3{
     display: none;
 }
 

@@ -12,7 +12,7 @@ async function apiFetch() {
       // displayResults(data);
 
     // assigning atributes API to ids in HTML
-    document.getElementById('place').innerHTML=data.name;
+    //document.getElementById('place').innerHTML=data.name;
     document.getElementById('currentTemp').innerHTML=data.main.temp;
     document.getElementById('windSpeed').innerHTML=data.wind.speed;
     document.getElementById('description').innerHTML=data.weather[0].description;

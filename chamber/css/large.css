@@ -105,7 +105,10 @@ box-shadow: 5px 10px;
 img#weather_icon{
     max-width: 100%;
 }
- 
+
+.section_spot3{
+    display: block;
+}
 /*----------- FOOTER --------------*/
     
 
