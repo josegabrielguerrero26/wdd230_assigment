@@ -25,9 +25,11 @@ function buildBusinessCards(info) {
     h3.textContent = 'CEO: ' + business.ceo;
     a.innerHTML = `${business.website}`;
 
+
     a.setAttribute("href", `${business.website}`);
     img.setAttribute("src", `${business.filepath}`);
-  
+    img.setAttribute("alt", `${business.name}`);
+    
     card.appendChild(h2);
     card.appendChild(picture);
     picture.appendChild(img);
