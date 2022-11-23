@@ -56,10 +56,10 @@ header h2 {margin: 5px; font-weight: normal;
 .time{
     grid-column: 1 /4;
     margin: 0.1rem;
-	border: 3px solid rgb(100, 85, 85);
+	border: 3px solid rgb(162, 162, 162);
 	padding: 0.5rem;
-	background-color: rgb(136, 135, 135);
-    color: rgb(245, 236, 236);
+	background-color: rgb(40, 44, 36);
+
     text-align: center;
 }
 .event h2{
