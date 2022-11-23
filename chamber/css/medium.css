@@ -30,16 +30,17 @@ main.index{
     grid-template-rows: 6fr;
 
 }
-.container{
+#spots {
     grid-row: 4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 225px;
-    
-   
+
     
 }
-.truck, .codep{
+div.container{
+    height: 280px;
+}
+div.section_spot1, div.section_spot2{
     margin-right: 20px;
      box-shadow: 5px 10px;
 }

@@ -1,17 +1,16 @@
 const URL = "https://josegabrielguerrero26.github.io/wdd230_assigment/chamber/JSON/dire.json";
 
-console.log("hello")
+
 const display = document.getElementById("spots");
 function buildBusinessCards(info) {
   let data = info.businesses.filter((p) => p.membership == "Gold" || p.membership == "Silver");
   for (let i = 0; i <= 1; i++) {
     a=data.splice(Math.floor(Math.random() * data.length), 1);
-    console.log(a)
+
 };
   let num = 1;
   data.forEach((business) => {
 
-    console.log(num)
 
     let card = document.createElement("div");
     let h2 = document.createElement("h2");
