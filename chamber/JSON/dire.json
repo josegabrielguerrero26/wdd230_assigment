@@ -9,7 +9,7 @@
         "mainbusiness": "Telecomunications",
         "website" :"www.laie.corp",
         "filepath": "./images/api1.PNG",
-        "membership": "Silver"
+        "membership": "Gold"
 
     },
     {
@@ -21,7 +21,7 @@
         "mainbusiness": "Oil",
         "website" :"www.abc.org",
         "filepath": "./images/api2.PNG",
-        "membership": "Silver"
+        "membership": "Gold"
 
     },
     {
@@ -33,7 +33,7 @@
         "mainbusiness": "Clothing",
         "website" :"www.h&m.com.us",
         "filepath": "./images/api3.PNG",
-        "membership": "Silver"
+        "membership": "Gold"
 
     },
     {
@@ -69,7 +69,7 @@
         "mainbusiness": "Telecomunications",
         "website" :"www.funny.com",
         "filepath": "./images/api6.PNG",
-        "membership": "Silver"
+        "membership": "NP"
 
     },
     {
@@ -81,7 +81,7 @@
         "mainbusiness": "Oil",
         "website" :"www.america.com.mx",
         "filepath": "./images/api7.PNG",
-        "membership": "Silver"
+        "membership": "NP"
 
     },
     {
@@ -93,7 +93,7 @@
         "mainbusiness": "Clothing",
         "website" :"www.M&C.org",
         "filepath": "./images/api8.PNG",
-        "membership": "Silver"
+        "membership": "NP"
 
     },
     {
@@ -105,7 +105,7 @@
         "mainbusiness": "Finance",
         "website" :"www.pilot1120.com",
         "filepath": "./images/api9.PNG",
-        "membership": "Silver"
+        "membership": "NP"
 
     },
     {
@@ -117,7 +117,7 @@
         "mainbusiness": "Manufacturing",
         "website" :"www.happycorp.com",
         "filepath": "./images/api10.PNG",
-        "membership": "Silver"
+        "membership": "NP"
 
     }
 ]
