@@ -4,7 +4,7 @@ const URL = "https://josegabrielguerrero26.github.io/wdd230_assigment/chamber/JS
 const display = document.getElementById("spots");
 
 function buildBusinessCards(info) {
-  let data = info.businesses.filter((p) => p.membership == "Silver");
+  let data = info.businesses.filter((p) => p.membership == "Gold");
   for (let i = 0; i <= 2; i++) {
     data.splice(Math.floor(Math.random() * data.length), 1);
   };
