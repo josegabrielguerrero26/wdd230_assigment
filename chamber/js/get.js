@@ -1,13 +1,13 @@
 const URL = "https://josegabrielguerrero26.github.io/wdd230_assigment/chamber/JSON/dire.json";
 
-
+console.log("hello")
 const display = document.getElementById("spots");
-
 function buildBusinessCards(info) {
-  let data = info.businesses.filter((p) => p.membership == "Gold");
+  let data = info.businesses.filter((p) => p.membership == "Gold" || p.membership == "Silver");
   for (let i = 0; i <= 2; i++) {
-    data.splice(Math.floor(Math.random() * data.length), 1);
-  };
+    a=data.splice(Math.floor(Math.random() * data.length), 1);
+    console.log(a)
+};
   let num = 1;
   data.forEach((business) => {
 
@@ -42,14 +42,13 @@ function buildBusinessCards(info) {
 }
 
 async function getBusinesses() {
-  let response = await fetch(URL);
-  if (response.ok) {
-    let data = await response.json();
-    buildBusinessCards(data);
-  } else {
-    throw Error(response.statusText);
+    let response = await fetch(URL);
+    if (response.ok) {
+      let data = await response.json();
+      buildBusinessCards(data);
+    } else {
+      throw Error(response.statusText);
+    }
   }
-}
-
-getBusinesses();
-
+  
+  getBusinesses();

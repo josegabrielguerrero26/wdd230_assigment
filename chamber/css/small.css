@@ -186,7 +186,7 @@ background-color: rgb(114, 216, 70);
 .hero,.event, .new_release, .container {
     text-align: center;
     position: relative;
-    height: 150px;
+    height: 200px;
     background-color:#787883;
     padding: 0px;
     margin-block: 5px;
@@ -211,9 +211,20 @@ background-color: rgb(114, 216, 70);
 }  
 
 .container{
-    height: 400px;
+    height: 450px;
     padding: 15px;
 }
+div.spot1, div.spot2{
+    height: 200px;
+    margin-block: 5px;
+    border-style: solid ;
+    border-width: thin;
+    border-color: rgb(10, 10, 10);
+}
+picture.spot1, picture.spot2{
+    height: 30px;
+}
+/*
 .truck,.codep, .spo{
    
     height: 180px;
@@ -221,8 +232,8 @@ background-color: rgb(114, 216, 70);
     border-style: solid ;
     border-width: thin;
     border-color: rgb(10, 10, 10);
-}
-.spo{
+}*/
+.spot3{
     display: none;
 }
 
