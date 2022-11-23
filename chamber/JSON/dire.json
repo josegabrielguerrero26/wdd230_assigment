@@ -9,7 +9,7 @@
         "mainbusiness": "Telecomunications",
         "website" :"www.laie.corp",
         "filepath": "./images/api1.PNG",
-        "membership": "Gold"
+        "membership": "Silver"
 
     },
     {
@@ -45,7 +45,7 @@
         "mainbusiness": "Finance",
         "website" :"www.advantage.com",
         "filepath": "./images/api4.PNG",
-        "membership": "Gold"
+        "membership": "Silver"
 
     },
     {
@@ -57,7 +57,7 @@
         "mainbusiness": "Manufacturing",
         "website" :"www.WD.com",
         "filepath": "./images/api5.PNG",
-        "membership": "Gold"
+        "membership": "Silver"
 
     },
     {
@@ -69,7 +69,7 @@
         "mainbusiness": "Telecomunications",
         "website" :"www.funny.com",
         "filepath": "./images/api6.PNG",
-        "membership": "Gold"
+        "membership": "Silver"
 
     },
     {
@@ -117,7 +117,7 @@
         "mainbusiness": "Manufacturing",
         "website" :"www.happycorp.com",
         "filepath": "./images/api10.PNG",
-        "membership": "Bronce"
+        "membership": "Silver"
 
     }
 ]

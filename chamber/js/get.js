@@ -4,37 +4,35 @@ const URL = "https://josegabrielguerrero26.github.io/wdd230_assigment/chamber/JS
 const display = document.getElementById("spots");
 
 function buildBusinessCards(info) {
-  let data = info.businesses.filter((p) => p.membership == "Gold" || p.membership == "Silver");
+  let data = info.businesses.filter((p) => p.membership == "Silver");
   for (let i = 0; i <= 2; i++) {
     data.splice(Math.floor(Math.random() * data.length), 1);
   };
   let num = 1;
   data.forEach((business) => {
+
     let card = document.createElement("div");
     let h2 = document.createElement("h2");
     let picture = document.createElement("picture");
     let img = document.createElement("img");
     let h3 = document.createElement("h3");
     let a = document.createElement("a");
-    let p = document.createElement("p");
+ 
 
     card.setAttribute("class", `section spot${num}`);
     h2.innerHTML = `${business.name}`;
-
-    h3.innerHTML = `${business.moto}`;
-    a.innerHTML = `${business.site}`;
-    p.innerHTML = `${business.phone}`;
+    h3.textContent = 'CEO: ' + business.ceo;
+    a.innerHTML = `${business.website}`;
 
     a.setAttribute("href", `${business.website}`);
-    img.setAttribute("src", `${business.imageurl}`);
-    img.setAttribute("alt", `${business.name}`);
-
+    img.setAttribute("src", `${business.filepath}`);
+  
     card.appendChild(h2);
     card.appendChild(picture);
     picture.appendChild(img);
     card.appendChild(h3);
     card.appendChild(a);
-    card.appendChild(p);
+   
 
     display.append(card);
     num += 1;
@@ -52,3 +50,4 @@ async function getBusinesses() {
 }
 
 getBusinesses();
+
