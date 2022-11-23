@@ -25,10 +25,12 @@ function buildBusinessCards(info, type) {
     ratings.textContent='Ratings: ' + business.ratings;
     email.textContent='Email: '+ business.website
     
+    
 
     if (type == "grid") {
       let img = document.createElement("img");
       img.setAttribute("src", `${business.filepath}`);
+      img.setAttribute("alt", `${business.name}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
       card.appendChild(h2);
