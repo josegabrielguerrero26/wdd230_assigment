@@ -151,7 +151,7 @@ main picture.myphoto img{
 }
 div#joinus {
 
-    position: relative;
+    position: absolute;
     width:100%;
     top: 6%;
   
