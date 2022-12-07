@@ -37,21 +37,21 @@ header {
 
 #one {
     top:10px;
-    right:80px;
+    right:5px;
     width: 25px;
     height: 25px;
     position:absolute;
 }
 #two{
     top:10px;
-    right:50px;
+    right:35px;
     width: 25px;
     height: 25px;
     position:absolute;
 }
 #three{
     top:6px;
-    right:92px;
+    right:60px;
     width: 30px;
     height: 35px;
     position:absolute;
@@ -79,9 +79,9 @@ h2{ margin: 5px;
     
 }
 nav {
-    position:absolute;
-    top:15px;
-    right:15px;
+    
+    grid-column: 1/6;
+   
 }
 
 nav ul {
@@ -92,9 +92,9 @@ nav ul {
 }
 nav ul.open{
     display: block;
-    width: 20rem;
-    float: left;
-    margin-right: 0px;
+    grid-column: 1/6;
+
+    
     background-color: rgb(65, 63, 63)}
     
 nav ul li a {
@@ -109,12 +109,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: rgb(243, 244, 243);
-    color: rgb(1, 1, 1);
+    background-color: #285430;
+    color: rgb(206, 202, 202);
 }
 nav ul li.active a {
-    background-color: rgb(191, 76, 76);
-    color: rgb(184, 8, 8);
+    background-color: rgb(241, 240, 240);
+    color: rgb(9, 0, 0);
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -127,24 +127,30 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 
-main.index{
+main.center {
+    margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6fr;
-    padding: 2%;
-    min-height: 10rem;
+    grid-template-rows: 1fr 350px;
+}
+
+div.total{
+    grid-row: 1;
 }
 #currentdate{
     font-size: 20px;
     color: white;
 }
-main picture.myphoto{
-    width: 100%;
-    margin: 0;
-    float: right;
+div.fooo-p {
+    width: 350px;
+    height: 280px;
+    margin: 0px;
+    grid-row: 2;
+  
 }
-main picture.myphoto img{
-    width: 100%;
+.fooo-p img{
+    max-width: 100%;
+
 }
 #sizing{
     text-align: center;
