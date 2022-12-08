@@ -8,20 +8,51 @@
 
 /*----------- HEADER --------------*/
 
-
-
 /*----------- NAVIGATION --------------*/
 
-nav ul.open{
-    width: 40rem;
+nav button{
+    display: none;
+  }
+  
+  nav {
+    position:absolute;
+    left: 120px;
+    margin: 0px 0px 0px 0px;
+
 }
 
+div.header{
+    display: none;
+}
+header nav ul, header nav ul.hide {
+      display: flex;
+  }
+header nav ul li {  
+      margin-left: 20px;
+  }
 #one {
-    right:120px;}
+      right:2em;
+}
 #two {
-        right:150px;
+      right:4em;  
+}
+#three{
+    right:5.7em; 
+}
+    
+#primaryNav a{
+    font-size: 18px;
+}
+nav ul li.active a {
+   text-decoration: underline;
+   color: white;
+   background-color: #285430;
 }
 
+nav ul.open{
+    display:flex ;
+    background-color: #285430;
+    }
 /*----------- MAIN --------------*/
 
 }
