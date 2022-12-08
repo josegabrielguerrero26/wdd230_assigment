@@ -330,3 +330,66 @@ footer h2{
 a{
     color: white;
 }
+
+/* Fresh page CSS rules*/
+main.fresh {
+    display: block;
+    margin: .2rem auto;
+    width: 100%;
+    max-width: 400px;
+     margin: auto ;
+
+}
+
+select, option, input, label{
+    padding:0.2rem 1rem;
+    font-size: 1.2rem;
+    color: inherit;
+    background-color: #a8a8ac;
+}
+.form-box{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label{
+    display: none;
+}
+.form-box input,
+.form-box select,
+.form-box textarea{
+    flex-basis: 100%;
+    color: black;
+   
+}
+.form-box1 select{
+    flex-basis: 150%;
+    width: 100%;
+    color: black;
+    margin: 0px ;
+    border: solid 1px black;
+}
+.form-box1 label{
+    background-color: white;
+    margin-left: -10px;
+}
+.form-box textarea{
+    border: solid 1px black;
+}
+
+#btnSend {
+    width: 50%;
+    align-self:center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
