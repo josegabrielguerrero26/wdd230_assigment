@@ -86,5 +86,52 @@ footer h1{
     grid-column: 1 /4;
     grid-row: 2;
 }
+
+/* ABOUT us */
+
+main.aboutus{
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 40px 200px 200px 1fr;
+    grid-template-columns: 125px auto 500px;
+} 
+.aboutus h1{
+    grid-column: 1/end;
+    grid-row: 1;
+}
+div.ribbom {
+    display: block;
+    grid-column: 1;
+    grid-row: 2/end;
+}
+div.history{
+    margin: 10px;
+    grid-column: 2/3;
+    grid-row: 2; 
+    font-size: 16px;
+}
+div.history1{
+    margin: 10px;
+    grid-column: 2/3;
+    grid-row: 3; 
+    font-size: 16px;
+}
+#map{
+        margin-top: 10px;
+        grid-column: 2/end;
+        grid-row: 4; 
+}
+
+.fooo-p1 {
+        margin-bottom: 10px;
+        position:relative;
+        height: 400px;
+        width: 500px;  
+}
+
+
+
+
+
 } /* end of media query */
 

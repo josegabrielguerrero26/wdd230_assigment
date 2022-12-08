@@ -137,4 +137,86 @@ div#joinus1 {
     font-family: Raleway, cursive;
 }
 
+
+/* Fresh Page*/
+
+
+main.fresh {
+
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.fresh h1{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: #285430 solid 10px;
+}
+.form-box label{
+    display:flex;
+    margin: 0px 0px 0px -10px;
+    flex-direction:column;
+   background-color: white   ;
+}
+.form-box{
+    flex-direction:column ;
+}
+.form-box button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.form-box label, .form-box1 label{
+    background-color: white;
+    margin-left: -15px;
+}
+/* ABOUT us */
+
+main.aboutus{
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 40px 240px 240px 1fr;
+    grid-template-columns: 125px 1fr 1fr;
+} 
+.aboutus h1{
+    grid-column: 1/end;
+    grid-row: 1;
+}
+div.ribbom {
+    display: block;
+    grid-column: 1;
+    grid-row: 2/end;
+}
+div.history{
+    margin: 10px;
+    grid-column: 2/4;
+    grid-row: 2; 
+    font-size: 12px;
+}
+div.history1{
+    margin: 10px;
+    grid-column: 2/4;
+    grid-row: 3; 
+    font-size: 12px;
+}
+#map{
+        grid-column: 2/end;
+        grid-row: 4; 
+    }
+
+.fooo-p1 {
+    position:relative;
+    height: 420px;
+    width: 300px;
+
+  
+}
 }
