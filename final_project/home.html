@@ -58,11 +58,11 @@
             <h3>Total Drink Submitted</h3>
         </div>
 
-        <div class="fooo-p">
-            <img src="images/food-p.png"width="600" height="200" alt="food"> 
+        <div class="fooo-p" >
+            <img src="images/food-p.jpg"width="600" height="200" alt="food"> 
         </div>
 
-        <div class="latest">
+        <div class="latest" >
             <h3>Latest Drink</h3>
             <div id="joinus1" class="drink">
             <a href="fresh.html">🍹 Send your favorite recipe! </a>
@@ -78,13 +78,13 @@
             <img src="images/rocksbeach.jpg" width="600" height="200" alt="beachrock">
         </div>
 
-        <div class="coast">
+        <div class="coast"  >
             <h3>Coast El Matador </h3>
             <p>El Matador is the kind of beach an Angeleno immediately takes you to from the airport. It's a natural beauty hidden away down a steep staircase with dramatic craggy rock formations that seem to have risen from the Pacific.</p>
             <img src="images/matador.jpg" width="600" height="200" alt="beach">
         </div>
         
-        <div class="weather">
+        <div class="weather" >
           
         <h2>Current Weather <!--<span id="place">city</span>--></h2>
         <figure>
@@ -99,9 +99,33 @@
         
         </div>
         <div class="forecast">
-            <h2>Forecast Weather </h2>
-        
+       
+        <h3 class="content-auto"> Forecast Weather</h3>
+        <div class="content-auto flex-center">
+          <table id="forecast">
+            <tbody>
+              <tr>
+                <th id="weekday1"></th>
+                <th id="weekday2"></th>
+                <th id="weekday3"></th>
+                <th id="weekday4"></th>
+                <th id="weekday5"></th>
+            
+               
+              </tr>
+              <tr>
+                <td><img id="icon1" width="60" height="60"><span id="day1"></span></td>
+                <td><img id="icon2" width="60" height="60"><span id="day2"></span></td>
+                <td><img id="icon3" width="60" height="60"><span id="day3"></span></td>
+                <td><img id="icon4" width="60" height="60"><span id="day4"></span></td>
+                <td><img id="icon5" width="60" height="60"><span id="day5"></span></td>
+    
+                 
+              </tr>
+            </tbody>
+          </table>
         </div>
+    
 
 
 
@@ -129,6 +153,7 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/lazy.js"></script>
    
 </body>
 </html>
