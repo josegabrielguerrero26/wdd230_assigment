@@ -48,13 +48,13 @@ fetch(forecastURL)
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
         let day = 0;
-        peaksforecast.forEach(forecast => {
+        peaksforecast.slice(0, 3).forEach(forecast => {
             let d = new Date(forecast.dt_txt);
             document.getElementById(`weekday${day+1}`).textContent = weekdays[d.getDay()];
             day++;
         });
 
-        for (let i = 0; i <5; i++) {
+        for (let i = 0; i <3; i++) {
             const imagesrc = 'https://openweathermap.org/img/w/' + peaksforecast[i].weather[0].icon + '.png';
             const desc = peaksforecast[i].weather[0].description;
             document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
