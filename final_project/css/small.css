@@ -405,7 +405,8 @@ select, option, input, label{
 
 #thanks{
     font-size: 40px;
-    border: #285430 solid 10px;
+    border: #0e0e0e solid 5px;
+    background-color: #efeff5;
 }
 
 
