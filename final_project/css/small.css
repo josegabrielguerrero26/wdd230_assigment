@@ -397,6 +397,19 @@ select, option, input, label{
 
 }
 
+#thank_you{
+    position: relative;
+    height: 800px;
+    text-align: center;
+}
+
+#thanks{
+    font-size: 40px;
+    border: #285430 solid 10px;
+}
+
+
+
 /* ABOUT us */
 
 main.aboutus{
