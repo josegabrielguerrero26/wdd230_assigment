@@ -10,8 +10,8 @@ fetch(requestURL)
     populateSelectControls(jsonObject, '#fruit3');
   });
 
-  function populateSelectControls(drinks, mlevel) {
-    let select = document.querySelector(mlevel)
+  function populateSelectControls(drinks) {
+    let select = document.querySelector('#mlevel')
     for(let i in drinks) {
       let option =  document.createElement("option")
       option.innerHTML = drinks[i].name;
@@ -19,4 +19,5 @@ fetch(requestURL)
       select.appendChild(option);
     }
     select.selectedIndex = -1;
+    
   }
